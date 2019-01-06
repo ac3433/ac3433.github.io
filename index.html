@@ -1,1 +1,178 @@
-Hello World
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Alex Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+<div id="page-container">
+  <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+        </a>
+      </span>
+      <span class="navbar-title">
+        <b>Alex</b>
+      </span>
+      <ul class="navbar-nav">
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#about">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Experience</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Interests</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <section id="about" class="container-cards">
+        <div id="about-header">
+            <h1>Alexander Cheth</h1>
+            <h3>Full-Stack Developer</h3>
+        </div>
+        <div id="about-buttons">
+        
+        </div>
+        <div id="about-bio">
+
+            
+        </div>
+        <div id="about-details">
+            <ul>
+                <li>
+                    <div class="about-leftSide">Email</div>
+                    <div class="about-rightSide">acheth3433@gmail.com</div>
+                </li>
+                <li>
+                    <div class="about-leftSide">Phone</div>
+                    <div class="about-rightSide">+1 215 251 2730</div>
+                </li>
+                <li>
+                    <div class="about-leftSide">Location</div>
+                    <div class="about-rightSide">Philadelphia, PA, United States</div>
+                </li>
+                <li>
+                    <div class="about-leftSide"></div>
+                    <div class="about-rightSide"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="skills" class="container-cards">
+        <h1>Skills</h1>
+        <div id="skills-technical">
+            <div id="skills-programming" class="container-card">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div id="skills-database" class="container-card">
+                <h3>Database</h3>
+                <ul>
+                    <li>SQLite</li>
+                    <li>MYSQL</li>
+                </ul>
+            </div>
+            <div id="skills-versionControl" class="container-card">
+                <h3>Version Control</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>Perforce</li>
+                </ul>
+            </div>
+            <div id="skills-others" class="container-card">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Eclipse</li>
+                    <li>Visual Studio</li>
+                    <li>Bracket</li>
+                    <li>Unity</li>
+                    <li>JIRA</li>                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience">
+        <h1>Experiences</h1>
+        <ul>
+            <li>
+                <div class="experience-body">
+            <h3 id="experience-header">
+                Software Developer and Quality Assurance Co-op
+            </h3>
+            <a href="https://www.sap.com/index.html"><h4>SAP</h4></a>
+            <h4>March 2017 - September 2017</h4>
+            <p id="experience-detail">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum pharetra lacus, sed cursus odio dignissim ornare. Nam vitae rutrum elit, ut faucibus leo. Praesent sed leo elit. Aliquam erat volutpat. Suspendisse semper mi velit, eu commodo tortor sollicitudin bibendum. Aenean vel ultrices neque, eu tincidunt libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras commodo, justo at efficitur rutrum, urna mi auctor sem, at malesuada lectus ipsum eget massa. Maecenas dolor turpis, pretium sit amet diam at, finibus laoreet est. Curabitur mollis in eros vel gravida. Morbi non nibh at metus condimentum dictum vitae porta enim.
+            </p>
+        </div>
+            </li>
+        <li>
+            <div class="experience-body">
+            <h3 id="experience-header">
+                Software Developer and Quality Assurance Co-op
+            </h3>
+                <a href="https://sig.com/"><h4>Susquehanna International Group, LLP</h4></a>
+            <h4>March 2017 - September 2017</h4>
+            <p id="experience-detail">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum pharetra lacus, sed cursus odio dignissim ornare. Nam vitae rutrum elit, ut faucibus leo. Praesent sed leo elit. Aliquam erat volutpat. Suspendisse semper mi velit, eu commodo tortor sollicitudin bibendum. Aenean vel ultrices neque, eu tincidunt libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras commodo, justo at efficitur rutrum, urna mi auctor sem, at malesuada lectus ipsum eget massa. Maecenas dolor turpis, pretium sit amet diam at, finibus laoreet est. Curabitur mollis in eros vel gravida. Morbi non nibh at metus condimentum dictum vitae porta enim.
+            </p>
+        </div>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+    </section>
+    
+    <div id="interests">
+    
+    </div>
+    
+    <div id="contact">
+    
+    
+    </div>
+    
+    </div>
+        <script>
+        function openSlideMenu(){
+            var width = document.getElementById('side-menu').style.width;
+            if(width == '200px')
+                closeSlideMenu();
+            else{
+                document.getElementById('side-menu').style.width = '200px';
+                document.getElementById('page-container').style.marginLeft = '200px';
+            }
+        }
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width = '0px';
+            document.getElementById('page-container').style.marginLeft = 'auto';
+        }
+    </script>
+</body>
+</html>
