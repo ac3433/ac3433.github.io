@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 
 <html lang="en">
@@ -9,7 +10,7 @@
   <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
-    <div id="bg-img"></div>
+
 <body>
 <div id="page-container">
   <nav class="navbar">
@@ -40,7 +41,7 @@
         <a href="#">Interests</a>
         <a href="#">Contact</a>
     </div>
-
+    
     <section id="about" class="container-cards">
         <div id="about-header">
             <h1>Alexander Cheth</h1>
@@ -77,7 +78,7 @@
     
     <section id="skills" class="container-cards">
         <h1>Skills</h1>
-        <div id="skills-technical" class="cards">
+        <div id="skills-technical">
             <div id="skills-programming" class="container-card">
                 <h3>Languages</h3>
                 <ul>
@@ -145,73 +146,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum pharetr
         </ul>
     </section>
     
-    <section id="portfolio" class="container-cards">
+    <section id="portfolio">
         <h1>Portfolio</h1>
-        <div id="portfolio-info" class="cards">
-            <div id="portfolio-VRGame" class="container-card">
-                <h3>Virtual Reality Stealth Game</h3>
-                <h5>C#, Unity</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="portfolio-scheduler" class="container-card">
-                <h3>Drexel Class Scheduler App</h3>
-                <h5>Java, MySQL, Android Studio</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="portfolio-automata" class="container-card">
-                <h3>Automata Sloth</h3>
-                <h5>C#</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="portfolio-okhacker" class="container-card">
-                <h3>OkHacker</h3>
-                <h5>C#, Unity</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="portfolio-othello" class="container-card">
-                <h3>Othello AI</h3>
-                <h5>Java</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="portfolio-skinbyme" class="container-card">
-                <h3>Skin by me</h3>
-                <h5>C#, Unity</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
     </section>
     
-    <section id="interests" class="container-cards">
-        <h1>Interests</h1>
-            <div id="interests-info" class="cards">
-            <div class="container-card">
-                <i class="fas fa-camera-retro"></i>
-                <h4>Photography</h4>
-            </div>
-            <div class="container-card">
-                <i class="fas fa-hiking"></i>
-                <h4>Backpacking</h4>
-            </div>
-            <div class="container-card">
-                <i class="fas fa-gamepad"></i>
-                <h4>Games</h4>
-            </div>
-            <div class="container-card">
-                <i class="fas fa-robot"></i>
-                <h4>Robotics</h4>
-            </div>
-            <div class="container-card">
-                <i class="fas fa-drafting-compass"></i>
-                <h4>Prop Making</h4>
-            </div>
-            <div class="container-card">
-                <i class="fas fa-cookie-bite"></i>
-                <h4>Baking</h4>
-            </div>
-
-                
-        </div>
-    </section>
+    <div id="interests">
+    
+    </div>
     
     <div id="contact">
     
@@ -235,4 +176,103 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum pharetr
         }
     </script>
 </body>
+=======
+<!DOCType html>
+<html lang="en">
+  
+  <head>
+    <title>Alex Cheth, Aspiring Full-Stack Developer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/styles/master.css">
+  </head>
+  
+  <body>
+    <div id="page-container">
+        <header id="head"> 
+          <a id="head-name" href="/">Alex Cheth</a>
+          <nav id="main-nav"> 
+            <ul> 
+              <li> <a href="/resume">Résumé </a> </li>
+              <li> <a href="/portfolio"> Portfolio </a></li>
+              <li> <a href="/contact"> Contact </a> </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <h1> I build things. Like this one, for example.</h1>
+          <div id="bio">
+            <section>
+              <h3 class="subhead">
+                <i class="material-icons" style="font-size:1.2em;color:#228b22;">
+check_circle_outline
+</i>
+                <span id="subhead-title">
+                I'm a back-end developer
+                </span>
+              </h3>
+              <p>C#, Java, and SQL.</p>
+            </section>
+            <section>
+              <h3 class="subhead">
+<i class="material-icons" style="font-size:1.2em;color:#228b22">
+check_circle_outline
+</i>
+                <span id="subhead-title">
+                ... and a front-end developer
+                </span>
+              </h3>
+              <p>HTML, JavaScript, and CSS.</p>
+            </section>
+                        <section>
+              <h3 class="subhead">
+<i class="material-icons" style="font-size:1.2em;color:#228b22">
+check_circle_outline
+</i>
+                <span id="subhead-title">
+                ... and a game developer
+                </span>
+              </h3>
+              <p>Unity Engine</p>
+            </section>
+            <section>
+              
+              <h3 class="subhead">
+<i class="material-icons" style="font-size:1.2em;color:#D8000C">
+highlight_off
+</i>
+
+                <span id="subhead-title">
+                ... but not a manager
+                </span>
+
+              </h3>
+              <p>Just programming for me, thanks!</p>
+            </section>
+                                    <section>
+              <h3 class="subhead">
+<i class="material-icons" style="font-size:1.2em;color:#FFCC11">
+help_outline
+</i>
+                <span id="subhead-title">
+                If you must know...
+                </span>
+              </h3>
+              <p>I'm interested in mobile and web apps, software, and games development.</p>
+            </section>
+          </div>
+        </main>
+      </div>
+<!--       <footer id ="site-footer"> 
+        <p>
+      <i class="material-icons" style="font-size:1.2em;color:black">
+location_on
+</i>
+          <span id="foot-size">
+        Philadelphia, PA, United States
+          </span>
+        </p>
+      </footer> -->
+    </div>
+  </body>
+>>>>>>> 746efa67ec4f4918e832df42e4e9afc875ce3379
 </html>
