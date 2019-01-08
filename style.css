@@ -474,6 +474,9 @@ BUTTON{
     height: 63px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.03), 0 3px 1px -2px rgba(0, 0, 0, 0.03), 0 1px 5px 0 rgba(0, 0, 0, 0.03);
     border-radius: 1%;
+    position: fixed;
+    top 0;
+    width: 100%;
 }
 
 .navbar a{
@@ -616,24 +619,27 @@ BUTTON{
 }
 
 #about p{
-    margin: 2em;
+    margin-top: 2em;
+    font-size: 1.1em;
 }
 
 
 #about-buttons{
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
 }
 
 #about-buttons A{
     background-color: #2ecc71;
     color: #fff;
     padding: 1em;
+    margin: auto;
     border-radius: 4px;
     border-bottom: 1px solid transparent;
     -webkit-transition: border-bottom-color 1s;
-    
+    display: inline-block;
 }
 
 #about-buttons > #github  {
@@ -643,6 +649,7 @@ BUTTON{
     border-radius: 4px;
     border-bottom: 1px solid transparent;
     -webkit-transition: border-bottom-color 1s;
+    margin-top: .5em;
 }
 
 #about-buttons > #github:hover{
@@ -662,11 +669,13 @@ BUTTON{
     display: inline-block;
     text-transform: capitalize;
     width: 150px;
+    font-weight: 550;
 }
 
 #about-details .about-rightSide{
     display: inline-block;
     color: #535c68;
+    width: 250px;
 }
 
 /* ==========================================================================
@@ -730,10 +739,8 @@ BUTTON{
 ========================================================================== */
 
 #interests{
-    margin-top: 5em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center
+    margin: 5em auto 5em auto;
+    text-align: center;
 }
 
 #interests .container-card{
@@ -745,6 +752,12 @@ BUTTON{
     font-size: 2em;
     margin-bottom: .4em;
 }
+
+
+/* ==========================================================================
+   Footer
+========================================================================== */
+
 
 /* ==========================================================================
    Media
@@ -771,6 +784,10 @@ BUTTON{
         width: 80%;
         margin: auto;
     }
+    
+        #about-details UL{
+        margin-left: 1.3em;
+    }
  
 }
 
@@ -780,10 +797,13 @@ BUTTON{
         margin-top: 1em;
         flex: 0 1 calc(46% - .5em);
     }
+
+    
 }
 
 @media (min-width:51em){
     .open-slide{display: none;}
+    .navbar{width: 80%; max-width: 62em;}
     #page-container{
         max-width: 62em;
         width: 80%;
@@ -810,6 +830,7 @@ BUTTON{
     #interests .container-card{
         margin-top: 1em;
         flex: 0 1 calc(12% - .5em);
+        min-width: 8.9em;
     }
 
 }
